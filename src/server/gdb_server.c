@@ -65,7 +65,6 @@ extern int wlink_quitreset(void);
 extern unsigned char riscvchip;
 extern uint8_t armchip;
 extern void wlink_armquitreset(void);
-int gdb_actual_connections;
 struct target_desc_format {
 	char *tdesc;
 	uint32_t tdesc_length;
